@@ -1,0 +1,5 @@
+name: Orchestra Action
+description: Trigger Orchestra server
+runs:
+  using: node16
+  main: index.js
