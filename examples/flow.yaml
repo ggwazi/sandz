@@ -1,0 +1,6 @@
+name: example
+steps:
+  - name: build
+    runtime: docker
+    image: rust:latest
+    command: cargo build --release

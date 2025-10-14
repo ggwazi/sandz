@@ -1,0 +1,5 @@
+name: wasm_test
+tasks:
+  - name: run
+    runtime: wasm
+    module: hello.wasm

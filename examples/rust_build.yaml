@@ -1,0 +1,6 @@
+name: rust_build
+tasks:
+  - name: build
+    runtime: docker
+    image: rust:latest
+    command: cargo build
